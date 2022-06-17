@@ -8,7 +8,7 @@ The data used is a study on Nashville housing
 
 1st Process was changing data formats(SaleDate)
 
-2nd Process was populating the property Address Data , here we exchanged Null Values
+2nd Process was populating the property Address Data , here  Null Values where exchanged
 
 Using a Self-Join to fill in the NULL values of property addresses that had the same Parcel ID
 
