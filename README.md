@@ -12,7 +12,7 @@ The data used is a study on Nashville housing
 
 Using a Self-Join to fill in the NULL values of property addresses that had the same Parcel ID
 
-divided the full adresses intop three individual columns by Address, City, and State
+divided the full adresses into three individual columns by Address, City, and State
 
  looked for a specific value in a cell(,) to identify each of the three categories
  
@@ -24,11 +24,11 @@ divided the full adresses intop three individual columns by Address, City, and S
  
  Creating  a CTE (Temp Table)
  
- Using Rwo_NUM , CASE, and Partition By functions
+ Using Row_NUM , CASE, and Partition By functions
  
  to create a table that showed all duplicates, to then delete them
  
- ##5- Eliminate unused colums
+ ##5- Eliminate unused columns
  Since the address, city, state column where created, the original address columns (PropertyAddress/OwnerAddress) where removed.
  
  As well as the SaleDate and TaxDistrict.
